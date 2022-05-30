@@ -42,7 +42,9 @@ body.dark {
   background-color: white;
   color: var(--black);
 }
-
+.btn__trans {
+  background-color: transparent;
+}
 /* Navbar */
 .active {
   color: var(--blue);
