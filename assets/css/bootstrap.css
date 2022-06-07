@@ -8062,7 +8062,7 @@ button.bg-dark:focus {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(85,198,255,0.618)!important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,79,255,0.518)!important;
 }
 
 .shadow {

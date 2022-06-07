@@ -6,19 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Hello,</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-  href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,200;1,300;1,400;1,600;1,700;1,800&display=swap"
-  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="assets/css/main.css">
   <link
   rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
   />
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
   <div class="app">
@@ -75,7 +72,7 @@
       <div id="Me" class="i-right">
         <img src="./assets/img/dimas.jpg" alt="" class="rounded-circle"
         width="140px">
-        <a href="#" class="animate__animated animate__fadeInRight btn bg-white shadow-sm ml-3">
+        <a href="#" data-aos="fade-left" data-aos-duration="2500" class="font-sm btn bg-white shadow-sm ml-3">
           Web Developer
         </a>
         <div class="mt-3">
@@ -86,9 +83,9 @@
       </div>
     </div>
 
-    <section id="Hobby" class="mb-4 scrol">
+    <section id="Hobby" class="mb-4">
       <div class="row">
-        <div class="col-12 ">
+        <div class="col-sm-12 col-md-6">
           <h2 class="text-right font-weight-bold text-primary mb-4"><ins>Hobby</ins></h2>
           <div class="mb-3">
             <div class="col-12">
@@ -107,121 +104,155 @@
             </div>
           </div>
         </div>
+        <div class="col-sm-12 col-md-6">
+          <section id="Technologies" class="scrol">
+            <h2 data-aos="fade-up" data-aos-duration="1500" class="font-weight-bold text-primary mb-4"><ins>Technologies</ins></h2>
+            <div class="mb-3 mt-4">
+              <a data-aos="fade-up" data-aos-duration="500" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="1000" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="1500" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="2000" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="2500" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="2500" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="35px" height="35px" />
+              </a>
+              <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35px" height="35px" />
+              </a>
+            </div>
+          </section>
+        </div>
       </div>
     </section>
   </div>
 
-  <div class="container-fluid mt-4">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <section id="Technologies" class="scrol">
-          <h2 data-aos="fade-up" data-aos-duration="1500" class="font-weight-bold text-primary mb-4"><ins>Technologies</ins></h2>
-          <div class="mb-3 mt-4">
-            <a data-aos="fade-up" data-aos-duration="500" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="1000" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="1500" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="2000" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="2500" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="2500" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg" alt="materialize" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="35px" height="35px" />
-            </a>
-            <a data-aos="fade-up" data-aos-duration="3000" class="btn mr-2 mb-1 mt-4 shadow-sm">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="35px" height="35px" />
-            </a>
+  <section id="Portofolio" class="container-fluid">
+    <h2 data-aos="fade-up" data-aos-duration="1500" class="text-right font-weight-bold text-primary mb-5 mt-2"><ins>Portofolio</ins></h2>
+    <div class="d-flex justify-content-center">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <!-- Swiper list awal-->
+        <div class="swiper-wrapper">
+          <!-- Dims Film -->
+          <div class="swiper-slide">
+            <div class="my__projek">
+              <img src="./assets/img/projek/1.png" alt="" class="img__swipe">
+              <div class="p_right">
+                <div class="judul__porto">
+                  DimsFilms
+                </div>
+                <div class="info__porto">
+                  this website is made with React JS and React bootstrap for style
+                </div>
+                <a href="https://dimstry.github.io/DimsFilms/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
+                  Demo
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20px" height="20px" />
+                </a>
+              </div>
+            </div>
           </div>
-        </section>
-      </div>
-      <div class="col-sm-12 col-md-6">
-        <section id="Portofolio" class="scrol">
-          <h2 data-aos="fade-up" data-aos-duration="1500" class="text-right font-weight-bold text-primary mb-5 mt-2"><ins>Portofolio</ins></h2>
-          <div class="col-md-6 mx-auto">
+          <!-- Aespa-->
+          <div class="swiper-slide">
+            <div class="my__projek">
+              <img src="./assets/img/projek/2.jpg" alt="" class="img__swipe">
+              <div class="p_right">
+                <div class="judul__porto">
+                  Aespa
+                </div>
+                <div class="info__porto">
+                  This website was created to promote Korean girl groups,made with bootstrap
+                </div>
+                <a href="https://dimstry.github.io/aespa-page/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
+                  Demo
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="20px" height="20px" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="mb-3 d-flex justify-content-center">
-            <a data-aos="zoom-in" data-aos-duration="1000" href="https://dimstry.github.io/DimsFilms/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
-              DimsFilms
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20px" height="20px" />
-            </a>
-            <a data-aos="zoom-in" data-aos-duration="1000" href="https://dimstry.github.io/aespa-page/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
-              AESPA
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="20px" height="20px" />
-            </a>
-            <a data-aos="zoom-in" data-aos-duration="1000" href="https://my-idol.vercel.app/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
-              MyIdol
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="20px" height="20px" />
-            </a>
+          <!-- my idol-->
+          <div class="swiper-slide">
+            <div class="my__projek">
+              <img src="./assets/img/projek/3.png" alt="" class="img__swipe">
+              <div class="p_right">
+                <div class="judul__porto">
+                  MyIdol
+                </div>
+                <div class="info__porto">
+                  This is a K-Pop Idol Web Profile created using the Next.js framework
+                </div>
+                <a href="https://my-idol.vercel.app/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
+                  Demo
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="20px" height="20px" />
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="mb-3 d-flex justify-content-center">
-            <a data-aos="zoom-in" data-aos-duration="2000" href="https://dimstry.github.io/about-twice/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
-              Twice
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="20px" height="20px" />
-            </a>
-            <a data-aos="zoom-in" data-aos-duration="2000" href="https://dimstry.github.io/Reveluv/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
-              Reveluv
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20px" height="20px" />
-            </a>
-            <a data-aos="zoom-in" data-aos-duration="2000" href="#" class="font-sm btn shadow-sm mr-2 mb-1">
-              Coming soon
-            </a>
+          <!-- Twice-->
+          <div class="swiper-slide">
+            <div class="my__projek">
+              <img src="./assets/img/projek/4.png" alt="" class="img__swipe">
+              <div class="p_right">
+                <div class="judul__porto">
+                  Twice
+                </div>
+                <div class="info__porto">
+                  this website contains Twice member information,
+                </div>
+                <a href="https://dimstry.github.io/about-twice/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
+                  Demo
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="20px" height="20px" />
+                </a>
+              </div>
+            </div>
           </div>
-        </section>
+          <!-- Reveluv-->
+          <div class="swiper-slide">
+            <div class="my__projek">
+              <img src="./assets/img/projek/5.jpg" alt="" class="img__swipe">
+              <div class="p_right">
+                <div class="judul__porto">
+                  Reveluv
+                </div>
+                <div class="info__porto">
+                  This website is just a fad when I learn to rest api
+                </div>
+                <a href="https://dimstry.github.io/Reveluv/" target="_blank" class="font-sm btn shadow-sm mr-2 mb-1">
+                  Reveluv
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="20px" height="20px" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper list akhir-->
+        <!-- Button dan navigation swiper js -->
+        <div class="swiper-button-next">
+          <i class='bx bx-chevron-right bx-md'></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class='bx bx-chevron-left bx-md'></i>
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- akhir button navigation swiper -->
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row mt-4">
-      <div class="col-md-4 mb-3">
-        <div data-aos="zoom-in" data-aos-duration="2500" class="card border-0 shadow-sm">
-          <img src="https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg"
-          class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="font-sm text-black  card-text">
-              Design Web
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3">
-        <div data-aos="zoom-in" data-aos-duration="2500" class="card border-0 shadow-sm">
-          <img src="./assets/img/login.jpg"
-          class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="font-sm card-text">
-              Form Login
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-3">
-        <div data-aos="zoom-in" data-aos-duration="2500" class="card border-0 shadow-sm">
-          <img src="https://wpdeveloper.com/wp-content/uploads/2019/04/Single-Page-Websites-Trend-Should-You-Adopt-It-For-Next-Project.png"
-          class="card-img-top" alt="...">
-          <div class="card-body">
-            <p class="font-sm text-black card-text">
-              Single Page
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
+  </section>
 
   <section id="Contact">
     <div class="container">
@@ -286,8 +317,7 @@
       </div>
     </div>
   </section>
-
-
+  
   <div class="container mb-4">
     <footer style="margin-top: 100px;">
       <div class="text-center">
@@ -303,7 +333,6 @@
   </script>
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbyj5sbIYTrVfjBwh0ezGATPyf1hou87EfMaryk3ghvnOPO30N5EmxH-_Y5unvNDnTD_/exec'
-
     const form = document.forms['submit-to-google-sheet']
     const btnKirim = document.querySelector('.btn-kirim');
     const btnLoading = document.querySelector('.btn-loading');
@@ -311,10 +340,8 @@
 
     form.addEventListener('submit', e => {
       e.preventDefault()
-
       btnLoading.classList.toggle('d-none');
       btnKirim.classList.toggle('d-none');
-
       fetch(scriptURL, {
         method: 'POST', body: new FormData(form)})
       .then(response => {
@@ -326,6 +353,21 @@
       })
       .catch(error => console.error('Error!', error.message))
     })
+  </script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
   </script>
   <script src="assets/js/jquery-3.6.0.js"></script>
   <script src="assets/js/style.js"></script>
