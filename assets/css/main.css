@@ -45,6 +45,14 @@ body.dark {
 .btn__trans {
   background-color: transparent;
 }
+.yolo {
+  display: flex;
+  font-size: 15px;
+}
+.yolo > span {
+  font-size: 15px;
+  margin-left: .25rem
+}
 /* Navbar */
 .active {
   color: var(--blue);
