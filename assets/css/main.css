@@ -143,12 +143,17 @@ body.dark {
   color: var(--blue);
 }
 
+.home {
+  height: 80vh;
+}
+
 /* Intro */
 
 .intro {
   display: flex;
-  height: 77vh;
-  margin-top: 2.5rem;
+  height: 100vh;
+  margin-top: 3rem;
+  padding: 1.5rem;
 }
 /* style kiri */
 .i-left {
@@ -273,6 +278,7 @@ body.dark {
     padding: 0.5rem 1rem;
   }
   .intro {
+    height: 80vh;
     margin-bottom: 1em;
     flex-direction: column;
     gap: 2rem;
