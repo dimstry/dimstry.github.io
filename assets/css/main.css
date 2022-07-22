@@ -58,7 +58,7 @@ body.dark {
   color: var(--blue);
 }
 .app {
-  padding: 0.5rem 3.5rem;
+  padding: 0.5rem 3rem;
   overflow: hidden;
 }
 .n-wrapper {
@@ -231,7 +231,6 @@ body.dark {
 .i-right {
   flex: 1;
   position: relative;
-  margin-left : 1rem;
   gap: 2rem;
 }
 .mySwiper {
@@ -277,7 +276,7 @@ body.dark {
     display: none;
   }
   .app {
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 0.2rem;
   }
   .intro {
     height: 80vh;
@@ -289,7 +288,7 @@ body.dark {
     transform: scale(1);
   }
   .i-right > :nth-child(2){
-    margin: 10px;
+    margin: 5px;
     left: 0;
   }
   .i-name {
@@ -307,30 +306,11 @@ body.dark {
     color: var(--gray);
     margin-block: 20px;
   }
+  .img__swipe {
+    width: 210px;;
+  }
 }
 
-@media screen and (min-width: 480px) {
-  .intro {
-    height: auto;
-    margin-bottom: 1em;
-  }
-  .mySwiper {
-    padding: 0 2.5rem;
-  }
-  .my__projek {
-    padding: 3rem 2.5rem;
-    display: flex;
-    justify-content: center;
-  }
-  .img__swipe {
-    margin: 0 0;
-    width: 300px;
-    height: 160px;
-  }
-  .p_right {
-    margin: 0 2rem;
-  }
-}
 @media screen and (min-width: 780px) {
   .n-left {
     gap: 1em;
