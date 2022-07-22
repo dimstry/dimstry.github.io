@@ -151,9 +151,10 @@ body.dark {
 
 .intro {
   display: flex;
-  height: 100vh;
-  margin-top: 3rem;
-  padding: 1.5rem;
+  height: 90vh;
+  margin-top: 2rem;
+  padding: 1rem;
+  gap:3rem;
 }
 /* style kiri */
 .i-left {
@@ -181,7 +182,7 @@ body.dark {
   font-weight: 100;
   font-size: 14px;
   color: var(--gray);
-  margin-top: 10px;
+  margin-block: 20px;
 }
 .i-button {
   width: 6rem;
@@ -230,7 +231,8 @@ body.dark {
 .i-right {
   flex: 1;
   position: relative;
-  margin-left: 2rem;
+  margin-left : 1rem;
+  gap: 2rem;
 }
 .mySwiper {
   height: 350px;
@@ -275,16 +277,35 @@ body.dark {
     display: none;
   }
   .app {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
   }
   .intro {
     height: 80vh;
-    margin-bottom: 1em;
+    margin-block: 0.2em;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
   .i-right {
     transform: scale(1);
+  }
+  .i-right > :nth-child(2){
+    margin: 10px;
+    left: 0;
+  }
+  .i-name {
+    gap: 0.2rem;
+  }
+  .i-name > :nth-child(1) {
+    font-size: 2.2rem;
+  }
+  .i-name > :nth-child(2) {
+    font-size: 2rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 14px;
+    color: var(--gray);
+    margin-block: 20px;
   }
 }
 
